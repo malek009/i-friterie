@@ -42,7 +42,7 @@ export default function Friteries() {
     }, []);
 
     useEffect(() => {
-        if(coords) {
+        if(coords ) {
             fetchData();
         }
     }, [coords]);
